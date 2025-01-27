@@ -1,37 +1,5 @@
 import React from "react";
 
-const items = [
-  {
-    title: "Custom Software Development",
-    description:
-      "No matter how complex your business challenges, we develop tailor-made solutions that solve problems and drive growth.",
-  },
-  {
-    title: "Web Application Development",
-    description:
-      "From robust e-commerce platforms to dynamic content management systems, we create web solutions tailored to your business needs.",
-  },
-  {
-    title: "Mobile App Development",
-    description:
-      "Whether it’s iOS, Android, or cross-platform, our mobile apps combine user-centric design with seamless functionality to keep your audience engaged.",
-  },
-  {
-    title: "UI/UX Design",
-    description:
-      "We design intuitive, aesthetically pleasing interfaces that prioritize user experience, turning ideas into visually stunning and easy-to-use products.",
-  },
-  {
-    title: "PWA Development",
-    description:
-      "Develop versatile applications that work seamlessly across devices.",
-  },
-  {
-    title: "API Integration",
-    description: "Streamline processes with seamless third-party integrations.",
-  },
-];
-
 function HomeContactSection() {
   return (
     <div
