@@ -1,6 +1,6 @@
 import React from "react";
 
-function HomeContactSection() {
+function HomeContactSection({ onContact }: { onContact?: () => void }) {
   return (
     <div
       className="w-full flex items-center justify-center px-2 h-[440px] lg:h-[600px]
@@ -15,7 +15,10 @@ function HomeContactSection() {
         <span className=" text-[#888888] text-center text-sm mb-4">
           Do you have a project? We offer free consultation
         </span>
-        <button className="h-12 rounded-md bg-white text-base flex items-center justify-center text-black px-4">
+        <button
+          className="h-12 rounded-md bg-white text-base flex items-center justify-center text-black px-4"
+          onClick={onContact}
+        >
           Contact Us
         </button>
       </div>
