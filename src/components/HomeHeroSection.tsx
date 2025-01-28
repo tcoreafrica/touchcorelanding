@@ -1,6 +1,14 @@
+"use client";
+
 import React from "react";
 
-function HomeHeroSection() {
+function HomeHeroSection({
+  onLearnMore,
+  onContact,
+}: {
+  onLearnMore?: () => void;
+  onContact?: () => void;
+}) {
   return (
     <div className="w-full flex flex-col min-h-[70vh] items-center justify-center text-white px-2">
       <h1 className="font-bold text-4xl lg:text-7xl text-white text-center max-w-5xl">
@@ -18,10 +26,16 @@ function HomeHeroSection() {
         commitment to innovation.
       </p>
       <div className="flex items-center gap-3 mt-14">
-        <button className="text-sm h-12 rounded-md flex items-center justify-center px-4 text-black bg-white">
+        <button
+          className="text-sm h-12 rounded-md flex items-center justify-center px-4 text-black bg-white"
+          onClick={onLearnMore}
+        >
           Learn More
         </button>
-        <button className="text-sm h-12 rounded-md flex items-center justify-center px-4 text-white border border-gray-700">
+        <button
+          className="text-sm h-12 rounded-md flex items-center justify-center px-4 text-white border border-gray-700"
+          onClick={onContact}
+        >
           Contact Us
         </button>
       </div>
