@@ -10,7 +10,7 @@ function HomeContactSection() {
       <div className="w-full max-w-7xl flex flex-col items-center justify-center">
         <img src="/logo.svg" alt="" className="w-[70px] object-contain mb-4" />
         <span className="font-bold text-white text-center text-5xl mb-4">
-          Let’s Build Something Great{" "}
+          {`Let’s Build Something Great`}{" "}
         </span>
         <span className=" text-[#888888] text-center text-sm mb-4">
           Do you have a project? We offer free consultation
