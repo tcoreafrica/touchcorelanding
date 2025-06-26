@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Neue-Bold";
+  src: local("Neue-Bold"),
+    url("./assets/NeueFont/NeueHaasDisplayBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Neue-Medium";
+  src: local("Neue-Medium"),
+    url("./assets/NeueFont/NeueHaasDisplayMediu.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Neue-Light";
+  src: local("Neue-Light"),
+    url("./assets/NeueFont/NeueHaasDisplayLight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Neue-Black";
+  src: local("Neue-Black"),
+    url("./assets/NeueFont/NeueHaasDisplayBlack.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Neue-Thin";
+  src: local("Neue-Thin"),
+    url("./assets/NeueFont/NeueHaasDisplayThin.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Neue-ThinX";
+  src: local("Neue-ThinX"),
+    url("./assets/NeueFont/NeueHaasDisplayXThin.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Neue-Roman";
+  src: local("Neue-Roman"),
+    url("./assets/NeueFont/NeueHaasDisplayRoman.ttf") format("truetype");
+}
+
+.scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-none {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+  }
+
+  @keyframes dropdownOpen {
+  0% {
+    opacity: 0;
+    transform: translateY(-2000px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-dropdown {
+  animation: dropdownOpen 0.5s ease-out forwards;
+}
