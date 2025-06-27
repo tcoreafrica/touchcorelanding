@@ -5,7 +5,7 @@ import HeroSection from "../components/homeCompo/HeroSection";
 import StaticNum from "../components/homeCompo/StaticNum";
 import RecentWorks from "../components/homeCompo/RecentWorks";
 import ClientCompanies from "../components/homeCompo/ClientCompanies";
-import NewServices from "../components/homeCompo/NewServices";
+// import NewServices from "../components/homeCompo/NewServices";
 import Phases from "../components/homeCompo/Phases";
 import StartUrJourney from "../components/homeCompo/StartUrJourney";
 import Footer from "../components/common/Footer";
@@ -35,7 +35,7 @@ function HomePage() {
       <div className="bg-white pt-36 px-5 md:px-20">
         <RecentWorks />
         <ClientCompanies />
-        <NewServices />
+        {/* <NewServices /> */}
         <Phases />
         <StartUrJourney />
         <Footer />

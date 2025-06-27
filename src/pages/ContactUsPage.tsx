@@ -128,7 +128,7 @@ export default function ContactUs() {
           />
 
           {/* Budget */}
-          <div className="flex flex-col space-y-2">
+          {/* <div className="flex flex-col space-y-2">
             <p className="text-lg font-NeueRoman text-[#95A7BE]">
               What is your budget?
             </p>
@@ -153,7 +153,7 @@ export default function ContactUs() {
                 </button>
               ))}
             </div>
-          </div>
+          </div> */}
 
           <input
             type="text"
