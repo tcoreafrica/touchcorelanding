@@ -39,12 +39,12 @@ export default function ContactUs() {
   };
 
   // Handle budget button selection
-  const handleBudgetSelect = (budget: string) => {
-    setFormData((prev) => ({
-      ...prev,
-      budget,
-    }));
-  };
+  // const handleBudgetSelect = (budget: string) => {
+  //   setFormData((prev) => ({
+  //     ...prev,
+  //     budget,
+  //   }));
+  // };
 
   // Handle form submission (example)
   const handleSubmit = (e: React.FormEvent) => {
