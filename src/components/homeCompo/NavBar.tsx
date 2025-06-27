@@ -473,7 +473,7 @@ export default function NavBar() {
               className="relative  bg-bgRed px-6 py-3 text-white font-NeueMedium rounded-full overflow-hidden group hover:scale-105 transition-transform duration-200 "
             >
               <span className="relative z-10">Contact</span>
-              <div className="absolute inset-x-0 bottom-0 h-0 group-hover:h-full bg-black transition-all duration-300 ease-out origin-bottom"></div>
+              <div className="absolute inset-x-0 bottom-0 h-0 group-hover:h-full bg-black transition-all rounded-full duration-300 ease-out origin-bottom"></div>
             </Link>
           </div>
         </div>
